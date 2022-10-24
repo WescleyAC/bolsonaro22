@@ -1,0 +1,188 @@
+body {
+
+    background: #83b987;
+
+}
+
+
+.container {
+
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container section {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+
+
+}
+
+.container p {
+
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    font-size: 5rem;
+    position: absolute;
+    top: 75px;
+
+
+}
+
+
+.bandeira button {
+
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-width: 0;
+    border-bottom: 2px solid rgb(9, 99, 37);
+    background-color: #107b29;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.bandeira input {
+
+
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border: 1px solid grey;
+    width: 87%;
+
+}
+
+
+.text {
+
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+
+    border: 1px solid black;
+    
+    margin-top: 10px;
+    color: #A52502;
+    margin-left: 5px;
+}
+
+.text p {
+
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .container p {
+
+
+        top: 40px;
+
+    }
+}
+
+
+@media (max-width: 580px) {
+
+    .bandeira {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+
+    .container p {
+
+
+        font-size: 3rem;
+        top: 70px;
+
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .container p {
+
+
+        font-size: 2rem;
+        top: 82px;
+
+    }
+}
+
+@media (max-width: 375px) {
+
+    .container p {
+
+
+        
+        top: 70px;
+
+    }
+}
+
+@media (max-width: 360px) {
+
+    .container p {
+
+
+        
+        top: 70px;
+
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .container p {
+
+
+        
+        top: 65px;
+
+    }
+}
+
+@media (max-width: 280px) {
+
+    .container p {
+
+
+        font-size: 1.5rem;
+        top: 70px;
+
+    }
+}
