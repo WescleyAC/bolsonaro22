@@ -44,7 +44,7 @@ body {
     color: #ffffff;
     font-size: 5rem;
     position: absolute;
-    top: 75px;
+    top: 90px;
 
 
 }
@@ -101,7 +101,18 @@ body {
     .container p {
 
 
-        top: 40px;
+        top: 70px;
+
+    }
+}
+
+@media (max-width: 620px) {
+
+    .container p {
+
+
+        top: 50px;
+        font-size: 4rem;
 
     }
 }
@@ -130,6 +141,16 @@ body {
     }
 }
 
+@media (max-width: 450px) {
+
+    .container p {
+
+
+        font-size: 2rem;
+        top: 55px;
+
+    }
+}
 
 @media (max-width: 425px) {
 
@@ -176,7 +197,7 @@ body {
     }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 300px) {
 
     .container p {
 
